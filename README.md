@@ -2,4 +2,4 @@
 
 *Testo in grassetto*
 
-In questa erpo collezioniamo tutti gli ezercizi fatti a lezione
+In questa repo collezioniamo tutti gli ezercizi fatti a lezione

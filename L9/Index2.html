@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form ENGIM</title>
+</head>
+<body>
+    <H1>Form iscrizione ENGIM</H1>
+  
+        <form class="grid-container" action="" method="post">
+        
+            <div class="item">
+                <label for="name">Nome</label>
+            </div>
+            <div class="select">
+                <input type="text" name="nome" id="nome">
+            </div>
+
+
+
+
+            <div class="item">
+                <label for="cognome">Cognome</label>
+            </div>
+            <div class="select">
+                <input type="text" name="cognome" id="cognome">     
+            </div>
+
+            <div class="item">
+                <label for="cognome">Email</label>
+            </div>
+            <div class="select">
+                <input type="email" name="email" id="email">     
+            </div>
+
+
+
+            <div class="item">
+                <label for="cognome">Telefono</label>
+            </div>
+
+            <div class="select">
+                <input type="number" name="telefono" id="telefono">     
+            </div>
+
+
+
+            <div class="item">
+                <label for="data">Data di nascita</label>
+            </div>
+
+            <div class="select">
+                <input type="date" name="data" id="data">     
+            </div>
+
+            <div class="item">
+                <label for="data">Che corso vuoi frequentare?</label>
+            </div>
+
+            <div class="select">
+                <input type="radio" name="corso" id="html"> <label for="web">HTML</label>
+                    <input type="radio" name="corso" id="css"> <label for="cucina">CSS</label>
+                    <input type="radio" name="corso" id="javascript"> <label for="cucina">JavaScript</label>
+            </div>
+
+
+
+
+
+            <div class="item">
+                <label for="cognome">Titolo di studio</label>
+            </div>
+
+            <div class="select">
+                <select name="titolo" id="titolo">
+                    <option value="magistrale">Laurea Magistrale</option>
+                    <option value="laurea">Laurea</option>
+                    <option value="superiore">Scuola Superiore</option>
+                    <option value="media">Scuola media</option>
+                </select>           
+            </div>
+    
+            <div class="item">
+                <label for="data">Linguaggio Preferetito</label>
+            </div>
+            <div class="select">
+                <select name="linguaggio" id="linguaggio">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>   
+            </div>
+
+            <div class="item">
+                <label for="cv">Allega il tuo CV</label>
+            </div>
+            <div class="select">
+                <input type="file" name="cv" id="cv">
+            </div>
+
+            <div class="item">
+                <label for="cover">Allega una Cover Letter</label>
+            </div>
+
+            <div class="select">
+                <textarea name="cover" id="cover" cols="80%" rows="20%"> </textarea>
+            </div>
+        
+         <input type="submit" value="Invia"> 
+        </form>  
+    
+    
+</body>
+</html>

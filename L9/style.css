@@ -1,0 +1,20 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container > div {
+    background-color: aliceblue;
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.select{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}

@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: rgb(32, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+}
+h2{
+    text-align: left;
+    color: rgb(158, 0, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+
+}
+img{
+    width: 250px   
+}
+a{
+    font-size: 25px;
+}
+a:link {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover{
+    color: blueviolet;
+    background: black;
+}
+a:active{
+    color: red;
+    background-color:beige;
+}
+a:visited{
+    color: rgb(233, 42, 74);
+    background-color: rgb(178, 131, 221);
+}
+p{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+}

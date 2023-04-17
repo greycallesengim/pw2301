@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form action="http://172.16.3.250:8080/index.php" method="post">
+    <label for="username">Etichetta username</label>
+    <input type="text" name="username" id="username" placeholder="Inserisci il tuo nickname" maxlength="10" required minlength="8">
+    <br> <br>
+    <label for="password">Etichetta Password</label>
+    <input type="password" name="password" id="password" placeholder="Inserici password" minlength="8" maxlength="20" required>
+    <br> <br>
+    <label for="email">Etichetta email</label>
+    <input type="email" name="email" id="email">
+    <br> <br>
+
+
+    <label for="CSS">CSS</label>
+    <input type="radio" name="skill" id="css" value="CSS">
+    <label for="HTML">HTML</label>
+    <input type="radio" name="skill" id="html" value="HTML">
+
+    
+    <br> <br>
+    <input type="checkbox" name="check" id="accetta" value="Accetto le condizioni">
+    <label for="acceta">Accetto le condizione</label>
+    <br><br>
+    <textarea name="message" id="message" cols="80" rows="20"></textarea>
+    <br><br>
+    <input type="submit" value="Invia">
+</form>
+</body>
+</html>

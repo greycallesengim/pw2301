@@ -1,0 +1,19 @@
+hr{
+    color: red;
+    border-width: 50px;
+    border-style: double;
+}
+
+p{
+
+font-family: 'Times New Roman', Times, serif;
+color: blueviolet;
+}
+
+h1{
+    text-align: right;
+}
+
+h1, h2, h3{
+    text-align: center;
+}

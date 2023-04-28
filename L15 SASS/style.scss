@@ -1,0 +1,22 @@
+$colore-principale: #bfed16;
+$linea-principale: 1px solid black;
+
+.miaclasse1{
+    color: $colore-principale;
+    border: $linea-principale  black;
+    font-size: 100px;
+}
+
+.miaclasse2{
+    color: $colore-principale;
+    border: $linea-principale  black;
+    font-style: italic;
+}
+
+
+table{
+    border: $linea-principale black;
+    h1 {
+        color: $colore-principale;
+    }
+}

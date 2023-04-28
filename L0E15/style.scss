@@ -1,0 +1,15 @@
+$color-primary: violet;
+$line-primary: 5px solidcolor;
+
+.nav {
+    background-color: $color-primary;
+}
+
+table {
+    border-color: $line-primary black;
+}
+
+.title-class{
+    color: $color-primary;
+    text-align:justify;
+}
